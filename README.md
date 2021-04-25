@@ -1,5 +1,5 @@
 # Router
-Communication Protocols homework in which we had to code a simulation for a router in C, including routing tables, ARP tables and ARP requests. For the routing table, I chose to "memorize" it as a 4-ary trie, for quick lookup.
+Communication Protocols homework in which we had to code a simulation for a packet router in C, including routing tables, ARP tables and ARP requests. For the routing table, I chose to "memorize" it as a 4-ary trie, for quick lookup.
 
 ## General operation
 When the router receives a package, it checks for the checksum and TTL. If TTL is less or equal to 1, the router replies back with ICMP Timeout. If the TTL is okay, it decrements it.
